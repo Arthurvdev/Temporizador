@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color:#6A5ACD ;
+    font-family: sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    
+}
+
+h4{
+    color: white;
+    font-style: italic;
+}
+
+.temporizador{
+    display: flex;
+    
+}
+
+.temporizador-divs{
+    width: 140px;
+    height: 140px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 .6rem;
+    border-radius: 10px;
+
+}
+
+.temporizador-divs div{
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.temporizador-divs span{
+    
+}
+
+.alert{
+    animation: alert 1s linear infinite alternate;
+}
+
+@keyframes alert {
+    0%{
+        background-color: rgb(219, 57, 57);
+    }
+    100%{
+        background-color: rgb(158, 0, 53);
+    }
+}
